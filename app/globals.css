@@ -8,6 +8,14 @@
   --accent: #90caf9;
 }
 
+@theme inline {
+  --color-text: var(--text);
+  --color-background: var(--background);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+}
+
 body {
   background: var(--background);
 }
