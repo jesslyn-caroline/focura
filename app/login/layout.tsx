@@ -1,6 +1,4 @@
 import Image from "next/image";
-// @ts-ignore
-import "./style.css";
 import Logo from "../components/others/logo";
 
 function LoginLayout({ children } : { children: React.ReactNode }) {
